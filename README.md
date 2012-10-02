@@ -1,4 +1,11 @@
-# Puppet geoip for Boxen
+# GeoIP Puppet Module for Boxen
 
-FIXME: update me bro
+Requires the following boxen modules:
 
+* `boxen`
+
+## Usage
+
+```puppet
+include geoip
+```
