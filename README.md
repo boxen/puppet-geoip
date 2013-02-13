@@ -1,8 +1,7 @@
 # GeoIP Puppet Module for Boxen
 
-Requires the following boxen modules:
-
-* `boxen`
+Install the [GeoIP](http://www.maxmind.com/en/geolocation_landing)
+geolocation library.
 
 ## Usage
 
@@ -10,8 +9,11 @@ Requires the following boxen modules:
 include geoip
 ```
 
-## Developing
+## Required Puppet Modules
 
-Write code.
+* `boxen`
 
-Run `script/cibuild`.
+## Development
+
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.
